@@ -1,11 +1,11 @@
 # R-Crawler-Wine-Price-Prediction
-R lang example which parse data set of chart from javascript chart and make a price prediction of wine price history.
+R lang example which parses data set of chart from javascript chart and make a price prediction of wine price history.
 
 
 # File Description
 1. wine.bak: database backup of SQL server 2012 which includes some simple wine info.
 2. demo.R: main R file.
-3. images: images folder which set initial path to "D:\demo\images"
+3. images: images folder which set initial path to "C:\Users\darren\workspace\R-Crawler-Wine-Price-Prediction\images"
 
 
 # Library
@@ -15,11 +15,11 @@ install.packages("RSelenium")
 2. [Install RODBC]
 install.packages("RODBC")
 
-3. [RODBC PDF]
-https://cran.r-project.org/web/packages/RODBC/vignettes/RODBC.pdf
-
-4. [Installation before you develop]
+3. [Installation before you go ahead]
 install.packages("ggplot2")
+
+4. [RODBC PDF]
+https://cran.r-project.org/web/packages/RODBC/vignettes/RODBC.pdf
 
 
 # Reference
