@@ -14,12 +14,12 @@ remDr <- rsDr[["client"]]
 #http://www.wine-searcher.com/market-127-2007
 
 #建立連線子
-conn <- odbcDriverConnect('driver={SQL Server}; server=DESKTOP-SLJIQK6\\SQLEXPRESS; database=demo; trusted_connection=true')
+conn <- odbcDriverConnect('driver={SQL Server}; server=DESKTOP-GFE9KED\\SQLEXPRESS; database=demo; trusted_connection=true')
 
 #查詢資料並取得集合
 res <- sqlQuery(
 		conn, 
-		"select top 3 [sn],[wineid_number],[vintage] 
+		"select top 5 [sn],[wineid_number],[vintage] 
 		 from [demo].[dbo].[wine_data]")
 
 
@@ -131,7 +131,7 @@ for(i in 1:nrow(res))
 		
 		# 圖表路徑
 		file_path <- paste(wineid_number, vintage, sep = "-")
-		file_path <- paste("D:\\demo\\images\\", file_path, ".png", sep = "")
+		file_path <- paste("C:\\Users\\darren\\workspace\\R-Crawler-Wine-Price-Prediction\\images\\", file_path, ".png", sep = "")
 		
 		# 儲存圖片
 		ggsave(file_path)
