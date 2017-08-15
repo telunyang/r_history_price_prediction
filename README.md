@@ -24,12 +24,15 @@ https://cran.r-project.org/web/packages/RODBC/vignettes/RODBC.pdf
 
 ## Reference
 1. SQL Server 2012 安裝說明
+
 https://dotblogs.com.tw/k2ejude/2013/11/11/127685
 
 2. Setting up R to connect to SQL Server
+
 https://support.rstudio.com/hc/en-us/articles/214510788-Setting-up-R-to-connect-to-SQL-Server-
 
 3. RSelenium: Basics
+
 https://cran.r-project.org/web/packages/RSelenium/vignettes/RSelenium-basics.html
 
 ## Examples
